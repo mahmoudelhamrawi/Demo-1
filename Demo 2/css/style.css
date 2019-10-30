@@ -1,0 +1,330 @@
+.slider{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(232,220,122,0);
+    
+}
+.slider-txt {
+   text-align: center ;
+
+ 
+   
+}
+.slider-txt p{
+    font-size: 55px;
+    font-family: cursive;
+     color: white;
+ 
+}
+.slider-txt span{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    
+    
+}
+
+
+
+
+@media only screen and (max-width:600px){
+	.slider-txt {
+		display: none;
+	}
+	
+}
+
+
+
+
+
+
+.noon{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background-color: #111;
+    height: 100%;
+    
+    
+
+}
+.sub-boob{
+    display: none;
+    position: relative;
+}
+#wclose{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: white;
+     cursor: pointer;
+    
+}
+#open{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+     font-size: 30px;
+    cursor: pointer;
+	z-index: 888888;
+    
+}
+.navbar-nav{
+    display: block;
+    
+}
+.navbar-nav li  a{
+    
+    padding: 20px;
+    font-size: 30px;
+}
+li:hover a{
+    color: firebrick;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:600px){
+	.navbar-nav{
+	   width: 100%;
+		height: auto;
+		display: flex;
+	}
+	
+	
+}
+
+
+
+
+.container1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.all{
+    width: 50%;
+    background-color:palevioletred;
+    margin: 0 auto;
+    border: 1px solid firebrick;
+    text-align: center;
+    
+}
+
+.all>h2{
+    padding: 10px;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.all>p{
+    font-size: 20px;
+    color: black;
+    display: none;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+.duartion{
+    background-image: url(../images/join2.jpg);
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    opacity: .7;*/
+  
+    
+    
+}
+.clockdiv{
+    margin: 0 auto;
+    width: 80%;
+}
+ #clockdiv{ 
+     font-family: sans-serif;
+    color: white; 
+    font-weight: 600; 
+    text-align: center; 
+    font-size: 50px; 
+     display: inline-block;
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background-color: transparent; 
+    display: inline-block; 
+} 
+#clockdiv div > span{ 
+    width: 120px;
+    height: 100px;
+    padding: 20px; 
+    border: 3px solid white; 
+    color: black;
+    font-size: 40px;
+    display: inline-block; 
+} 
+.smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+
+@media only screen and (max-width:600px){
+	.clockdiv{
+		      width: 50%;
+			   margin: 0 auto;
+		      font-size: 18px; 
+		
+	}
+/*
+	.smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+*/
+
+}
+	
+
+
+
+
+
+
+.container-mine{
+    margin-bottom: 10%;
+    margin-top: 10% ;
+}
+
+
+
+ .container-mine h1{
+     font-size: 35px;
+     margin-top: 5% ;
+     font-weight: 900;
+
+}
+
+
+
+.container-mine  p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+
+
+.aboutx>p{
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.aboutx>h5{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+#icons >span{
+    margin-left: 8%;
+}
+#icons{
+    text-align: center;
+    display: block;
+    line-height: 60px;
+}
+.social i{
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border: 2px solid gray;
+    margin-bottom: 15px;
+    text-align: center;
+    
+    
+}
+.social i:hover {
+    background-color: firebrick;
+    cursor: pointer;
+}
+.abouty p span{
+    color: firebrick;
+    font-size: 20px;
+}
+.abouty .btn-mibe{
+    padding: 15px;
+}
+
+
+@media only screen and (max-width:600px){
+
+	.container-mine p{
+		font-size: 15px;
+/*		color: aqua;*/
+	}
+	
+}
+
+
+
+
+
+.mybtn{
+    position: fixed;
+    bottom: 10%;
+    right: 10px;
+    z-index: 999;
+    background-color: black;
+    display: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (min-width:1200px){
+	
+	
+}
+
+@media only screen and (min-width:992px){
+	
+	
+}
+
+
+@media only screen and (min-width:768){
+	
+	
+}
+
+
+@media only screen and (min-width:600){
+	
+}
+*/
+
+	

@@ -1,0 +1,345 @@
+
+.nav-item-mine{
+
+        font-weight: 400;
+       padding: 10px 18px;
+}
+
+.nav-link-mine{
+    color: #ccccbb;
+    font-weight: 600;
+    font-size: 14px;
+        letter-spacing:.8px;
+
+    
+
+}
+
+navbar-nav-mine {
+}
+.nav-link-mine  span{
+    color: white;
+}
+
+.nav-link-mine:hover {
+    color: white;
+    
+} 
+
+
+.navbar-brand-mine{
+    color: #fefefe;
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: .5px;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.navbar-brand-mine:hover{
+    color: white;
+}
+
+/*banner*/
+
+.banner{
+    background-image:url(../images/banner.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 700px;
+
+}
+
+.banner-txt{
+    color: white;
+    
+}
+
+.banner-txt h1{
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+.banner-txt p{
+        font-size: 18px;
+        font-weight: 400;
+
+
+}
+
+.btn-mine{
+    width: 28%;
+    padding: 3% 5%;
+    color: black;
+    font-weight: 500;
+    border: 2.5px solid white;
+}
+
+.btn-mine:hover{
+    background-color: transparent;
+    color: white;
+}
+
+/*-----------------*/
+.about{
+    margin-top: 15%;
+}
+
+.about-txt h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10%;
+} 
+.about-txt h2{
+    font-size: 37px;
+    color: black;
+    font-weight: 800;
+    
+}
+
+.about-txt h2 span{
+    text-transform: lowercase;
+}
+.about-txt>p{
+    color:slategray;
+    margin-top: 2%;
+    line-height: 28px;
+}
+
+.about-txt .ppp p{
+    color: black;
+}
+.about-txt .ppp span{
+    font-weight: 700;
+}
+
+.btn-mine1{
+    border: 1px solid black;
+    padding: 3.5% 5.5%;
+    
+}
+
+.btn-mine1:hover{
+    background-color: black;
+    color: white;
+}
+
+/*-------------------*/
+
+.tabs{
+    margin-top: 8%;
+    color: black;
+}
+
+
+
+.nav-mine1 .nav-link-mine1{
+    color: black;
+    font-size: 20px;
+    font-weight: 600
+    
+}
+
+.nav-link-mine1:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.btn-mine2{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   
+}
+.overlay span{
+    
+    color: white;
+    font-size: 28px;
+    font-weight: bold
+    
+}
+
+
+
+.btn-mine2:hover .overlay{
+    top: 0px;
+    opacity: .8;
+}
+/*---------------------------*/
+
+
+
+.fact{
+    margin-top:11%;
+    background-image: url(../images/facts_bg.jpg);
+    background-size: 100% 100%;
+/*    background-position: center center;*/
+    height: 300px;
+}
+
+
+
+.fact .all {
+    color: white;
+    
+}
+.fact .all span{
+    font-size: 50px;
+    font-weight: 700;
+} 
+
+
+/*---------------------------------------------------*/
+
+.services{
+    margin-top: 8%;
+}
+.services h2{
+    
+    font-size: 35px;
+    font-weight: bold
+}
+
+
+/*-------------------------------------*/
+
+.slider{
+    background-image: url(../images/testimonials_bg.jpg);
+    background-size: 100% 100;
+    background-position: center center;
+    height: 500px;
+}
+
+
+.curs-txt{
+    color: white !important;
+}
+.carousel-indicators-mine{
+ 
+    bottom: -20% !important;
+  
+}
+
+
+
+
+.carousel-inner-mine {
+    width: 60%;
+}
+
+.carousel-item-mine img{
+    width: 15%;
+}
+
+/********************************************/
+
+.logo{
+    background-color: #191919;
+    height: 270px;
+    margin-top: 5%;
+
+}
+
+
+/***************************************************/
+
+
+.news{
+    margin-top: 9%;
+    background-color: #fBfbfB;
+    
+}
+.blog{
+    margin-top: 11%;
+transition: transform 1.5s ease;    
+}
+
+.blog  span{
+    color: dimgray;
+}
+.blog .xpx{
+    color: lightslategray;
+}
+
+.xpx:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.blog:hover img{
+    transform: scale(1.1);
+}
+
+
+.btn-mine3{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 1.5% 2.5%;
+    margin-top: 5%;
+    
+}
+
+.btn-mine3:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    
+}
+
+/****************************************************/
+.contact{
+    margin-top: 8%;
+   
+    
+}
+
+
+.slider-contact{
+    background-image: url(../images/contact_item.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 350px;
+    
+
+
+    
+     
+}
+
+.txt-contact{
+    color: white;
+    text-align: center;
+}
+
+/******************************/
+
+
+.footer{
+/*    margin-top: 2%;*/
+    background-color:#333333; 
+    height: 130px;
+    color: dimgray;
+}
+
+.footer .icon i{ 
+    padding-right: 10px;
+    color: dimgray;
+    transition: transform 1s ease; 
+}
+
+.footer .icon i:hover{
+    transform: scale(1.1);
+    color: white;
+}
